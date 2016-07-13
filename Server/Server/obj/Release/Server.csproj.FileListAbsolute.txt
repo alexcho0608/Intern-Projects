@@ -1,8 +1,0 @@
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Server.exe.config
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Server.exe
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Server.pdb
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Fleck.dll
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Newtonsoft.Json.dll
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Release\Newtonsoft.Json.xml
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\obj\Release\Server.exe
-c:\users\a\documents\visual studio 2015\Projects\Server\Server\obj\Release\Server.pdb
