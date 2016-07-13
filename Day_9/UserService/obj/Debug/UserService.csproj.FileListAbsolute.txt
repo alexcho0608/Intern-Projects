@@ -1,0 +1,5 @@
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\UserService\bin\Debug\UserService.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\UserService\bin\Debug\UserService.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\UserService\obj\Debug\UserService.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\UserService\obj\Debug\UserService.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\UserService\obj\Debug\UserService.pdb

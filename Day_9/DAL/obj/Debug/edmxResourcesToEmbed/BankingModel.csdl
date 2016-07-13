@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankDBv2Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BankDBv2Entities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="BankDBv2Model.Account" />
+    <EntitySet Name="AccountMovements" EntityType="BankDBv2Model.AccountMovement" />
+    <EntitySet Name="AccountTypes" EntityType="BankDBv2Model.AccountType" />
+    <EntitySet Name="BankOffices" EntityType="BankDBv2Model.BankOffice" />
+    <EntitySet Name="Client2Operator" EntityType="BankDBv2Model.Client2Operator" />
+    <EntitySet Name="Clients" EntityType="BankDBv2Model.Client" />
+    <EntitySet Name="Currencies" EntityType="BankDBv2Model.Currency" />
+    <EntitySet Name="CurrenciesExchangeRates" EntityType="BankDBv2Model.CurrenciesExchangeRate" />
+    <EntitySet Name="OperationTypes" EntityType="BankDBv2Model.OperationType" />
+    <EntitySet Name="Operators" EntityType="BankDBv2Model.Operator" />
+    <EntitySet Name="sysdiagrams" EntityType="BankDBv2Model.sysdiagram" />
+    <AssociationSet Name="FK_Account_AccountTypes" Association="BankDBv2Model.FK_Account_AccountTypes">
+      <End Role="AccountTypes" EntitySet="AccountTypes" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Account_BankOffices" Association="BankDBv2Model.FK_Account_BankOffices">
+      <End Role="BankOffices" EntitySet="BankOffices" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Account_Clients" Association="BankDBv2Model.FK_Account_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Account_Currencies" Association="BankDBv2Model.FK_Account_Currencies">
+      <End Role="Currencies" EntitySet="Currencies" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Account_Operators" Association="BankDBv2Model.FK_Account_Operators">
+      <End Role="Operators" EntitySet="Operators" />
+      <End Role="Account" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountMovement_Account" Association="BankDBv2Model.FK_AccountMovement_Account">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AccountMovement" EntitySet="AccountMovements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountMovement_Clients" Association="BankDBv2Model.FK_AccountMovement_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="AccountMovement" EntitySet="AccountMovements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AccountMovement_OperationTypes" Association="BankDBv2Model.FK_AccountMovement_OperationTypes">
+      <End Role="OperationTypes" EntitySet="OperationTypes" />
+      <End Role="AccountMovement" EntitySet="AccountMovements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client2Operator_Clients" Association="BankDBv2Model.FK_Client2Operator_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Client2Operator" EntitySet="Client2Operator" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Client2Operator_Operators" Association="BankDBv2Model.FK_Client2Operator_Operators">
+      <End Role="Operators" EntitySet="Operators" />
+      <End Role="Client2Operator" EntitySet="Client2Operator" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CurrenciesExchangeRate_Currencies" Association="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies">
+      <End Role="Currencies" EntitySet="Currencies" />
+      <End Role="CurrenciesExchangeRate" EntitySet="CurrenciesExchangeRates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CurrenciesExchangeRate_Currencies1" Association="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies1">
+      <End Role="Currencies" EntitySet="Currencies" />
+      <End Role="CurrenciesExchangeRate" EntitySet="CurrenciesExchangeRates" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Balance" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="CurrencyID" Type="Int32" Nullable="false" />
+    <Property Name="IBAN" Type="String" Nullable="false" MaxLength="22" Unicode="false" FixedLength="true" />
+    <Property Name="BankOfficeID" Type="Int32" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="CreateByOperatorID" Type="Int32" Nullable="false" />
+    <Property Name="LastUpdateDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AccountTypeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AccountType" Relationship="BankDBv2Model.FK_Account_AccountTypes" FromRole="Account" ToRole="AccountTypes" />
+    <NavigationProperty Name="BankOffice" Relationship="BankDBv2Model.FK_Account_BankOffices" FromRole="Account" ToRole="BankOffices" />
+    <NavigationProperty Name="Client" Relationship="BankDBv2Model.FK_Account_Clients" FromRole="Account" ToRole="Clients" />
+    <NavigationProperty Name="Currency" Relationship="BankDBv2Model.FK_Account_Currencies" FromRole="Account" ToRole="Currencies" />
+    <NavigationProperty Name="Operator" Relationship="BankDBv2Model.FK_Account_Operators" FromRole="Account" ToRole="Operators" />
+    <NavigationProperty Name="AccountMovements" Relationship="BankDBv2Model.FK_AccountMovement_Account" FromRole="Account" ToRole="AccountMovement" />
+  </EntityType>
+  <EntityType Name="AccountMovement">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="AccountID" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="EntryDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="OperationTypeID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="BankDBv2Model.FK_AccountMovement_Account" FromRole="AccountMovement" ToRole="Account" />
+    <NavigationProperty Name="Client" Relationship="BankDBv2Model.FK_AccountMovement_Clients" FromRole="AccountMovement" ToRole="Clients" />
+    <NavigationProperty Name="OperationType" Relationship="BankDBv2Model.FK_AccountMovement_OperationTypes" FromRole="AccountMovement" ToRole="OperationTypes" />
+  </EntityType>
+  <EntityType Name="AccountType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TaxPercent" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <NavigationProperty Name="Accounts" Relationship="BankDBv2Model.FK_Account_AccountTypes" FromRole="AccountTypes" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="BankOffice">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SWIFT" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="true" />
+    <Property Name="Address" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Accounts" Relationship="BankDBv2Model.FK_Account_BankOffices" FromRole="BankOffices" ToRole="Account" />
+  </EntityType>
+  <EntityType Name="Client2Operator">
+    <Key>
+      <PropertyRef Name="ClientID" />
+      <PropertyRef Name="OperatorID" />
+      <PropertyRef Name="EntryDate" />
+    </Key>
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="OperatorID" Type="Int32" Nullable="false" />
+    <Property Name="EntryDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="NewStatus" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Client" Relationship="BankDBv2Model.FK_Client2Operator_Clients" FromRole="Client2Operator" ToRole="Clients" />
+    <NavigationProperty Name="Operator" Relationship="BankDBv2Model.FK_Client2Operator_Operators" FromRole="Client2Operator" ToRole="Operators" />
+  </EntityType>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Names" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="EGN" Type="Int64" Nullable="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="1024" Unicode="true" FixedLength="false" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Accounts" Relationship="BankDBv2Model.FK_Account_Clients" FromRole="Clients" ToRole="Account" />
+    <NavigationProperty Name="AccountMovements" Relationship="BankDBv2Model.FK_AccountMovement_Clients" FromRole="Clients" ToRole="AccountMovement" />
+    <NavigationProperty Name="Client2Operator" Relationship="BankDBv2Model.FK_Client2Operator_Clients" FromRole="Clients" ToRole="Client2Operator" />
+  </EntityType>
+  <EntityType Name="Currency">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="ISOCode" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="true" />
+    <Property Name="Label" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Accounts" Relationship="BankDBv2Model.FK_Account_Currencies" FromRole="Currencies" ToRole="Account" />
+    <NavigationProperty Name="CurrenciesExchangeRates" Relationship="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies" FromRole="Currencies" ToRole="CurrenciesExchangeRate" />
+    <NavigationProperty Name="CurrenciesExchangeRates1" Relationship="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies1" FromRole="Currencies" ToRole="CurrenciesExchangeRate" />
+  </EntityType>
+  <EntityType Name="CurrenciesExchangeRate">
+    <Key>
+      <PropertyRef Name="FromCurrencyID" />
+      <PropertyRef Name="ToCurrencyID" />
+      <PropertyRef Name="EntryDate" />
+    </Key>
+    <Property Name="FromCurrencyID" Type="Int32" Nullable="false" />
+    <Property Name="ToCurrencyID" Type="Int32" Nullable="false" />
+    <Property Name="Rate" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="EntryDate" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Currency" Relationship="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies" FromRole="CurrenciesExchangeRate" ToRole="Currencies" />
+    <NavigationProperty Name="Currency1" Relationship="BankDBv2Model.FK_CurrenciesExchangeRate_Currencies1" FromRole="CurrenciesExchangeRate" ToRole="Currencies" />
+  </EntityType>
+  <EntityType Name="OperationType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="AccountMovements" Relationship="BankDBv2Model.FK_AccountMovement_OperationTypes" FromRole="OperationTypes" ToRole="AccountMovement" />
+  </EntityType>
+  <EntityType Name="Operator">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Names" Type="String" Nullable="false" MaxLength="255" Unicode="true" FixedLength="false" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Accounts" Relationship="BankDBv2Model.FK_Account_Operators" FromRole="Operators" ToRole="Account" />
+    <NavigationProperty Name="Client2Operator" Relationship="BankDBv2Model.FK_Client2Operator_Operators" FromRole="Operators" ToRole="Client2Operator" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Account_AccountTypes">
+    <End Role="AccountTypes" Type="BankDBv2Model.AccountType" Multiplicity="1" />
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AccountTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="AccountTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Account_BankOffices">
+    <End Role="BankOffices" Type="BankDBv2Model.BankOffice" Multiplicity="1" />
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BankOffices">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="BankOfficeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Account_Clients">
+    <End Role="Clients" Type="BankDBv2Model.Client" Multiplicity="1" />
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Account_Currencies">
+    <End Role="Currencies" Type="BankDBv2Model.Currency" Multiplicity="1" />
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Currencies">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="CurrencyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Account_Operators">
+    <End Role="Operators" Type="BankDBv2Model.Operator" Multiplicity="1" />
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operators">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Account">
+        <PropertyRef Name="CreateByOperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountMovement_Account">
+    <End Role="Account" Type="BankDBv2Model.Account" Multiplicity="1" />
+    <End Role="AccountMovement" Type="BankDBv2Model.AccountMovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AccountMovement">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountMovement_Clients">
+    <End Role="Clients" Type="BankDBv2Model.Client" Multiplicity="1" />
+    <End Role="AccountMovement" Type="BankDBv2Model.AccountMovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AccountMovement">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AccountMovement_OperationTypes">
+    <End Role="OperationTypes" Type="BankDBv2Model.OperationType" Multiplicity="1" />
+    <End Role="AccountMovement" Type="BankDBv2Model.AccountMovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OperationTypes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="AccountMovement">
+        <PropertyRef Name="OperationTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client2Operator_Clients">
+    <End Role="Clients" Type="BankDBv2Model.Client" Multiplicity="1" />
+    <End Role="Client2Operator" Type="BankDBv2Model.Client2Operator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Client2Operator">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Client2Operator_Operators">
+    <End Role="Operators" Type="BankDBv2Model.Operator" Multiplicity="1" />
+    <End Role="Client2Operator" Type="BankDBv2Model.Client2Operator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operators">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Client2Operator">
+        <PropertyRef Name="OperatorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CurrenciesExchangeRate_Currencies">
+    <End Role="Currencies" Type="BankDBv2Model.Currency" Multiplicity="1" />
+    <End Role="CurrenciesExchangeRate" Type="BankDBv2Model.CurrenciesExchangeRate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Currencies">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CurrenciesExchangeRate">
+        <PropertyRef Name="FromCurrencyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CurrenciesExchangeRate_Currencies1">
+    <End Role="Currencies" Type="BankDBv2Model.Currency" Multiplicity="1" />
+    <End Role="CurrenciesExchangeRate" Type="BankDBv2Model.CurrenciesExchangeRate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Currencies">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CurrenciesExchangeRate">
+        <PropertyRef Name="ToCurrencyID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

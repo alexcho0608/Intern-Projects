@@ -1,0 +1,121 @@
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ApplicationInsights.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\csc.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\vbc.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.dll.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Newtonsoft.Json.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Helpers.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Mvc.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Razor.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Optimization.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\BAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\EntityFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\DAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Newtonsoft.Json.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Helpers.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Mvc.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Razor.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Optimization.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\BAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\EntityFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\bin\Debug\DAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ApplicationInsights.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\csc.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\vbc.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.dll.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.Tests.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\BAL.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\DAL.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\ArticleSite.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\BAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\bin\Debug\DAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite.Tests\obj\Debug\ArticleSite.Tests.pdb

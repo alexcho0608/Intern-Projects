@@ -1,0 +1,28 @@
+﻿@model IList<DAL.Client>  
+@{
+    ViewBag.Title = "Clients";
+}
+
+<h2>Clients</h2>
+
+<thead>
+    <tr>
+        <td>LoginName </td>
+        <td>EGN</td>
+        <td>Email</td>
+    </tr>
+</thead>
+@foreach (var client in Model)
+{
+    <tr>
+        <td>@client.Login</td>
+        <td>@client.EGN</td>
+        <td>@client.Email</td>
+        <td>
+            <form action="~/Operator/Access/ChangeClientState/" + @client.ID + "/" + @client.State method="POST">
+                <button>@client.State ? "Freeze" : "Unfreeze" </button>
+            </form>
+        </td>
+    </tr>
+}
+

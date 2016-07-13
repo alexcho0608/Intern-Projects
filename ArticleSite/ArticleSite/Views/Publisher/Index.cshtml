@@ -1,0 +1,41 @@
+﻿@model BAL.Models.PublishArticleModel
+@{
+    ViewBag.Title = "Publish";
+}
+
+<h2>Publish</h2>
+
+@ViewBag.Message
+
+
+@using (Html.BeginForm("Add", "Publisher", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+
+    @Html.AntiForgeryToken()
+    <h4>Publish Article</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Description, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Description, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Category, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Category, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <label for="file">Filename:</label>
+    <input type="file" name="file" id="file" accept=".pdf" />
+
+    <input type="submit" />
+}

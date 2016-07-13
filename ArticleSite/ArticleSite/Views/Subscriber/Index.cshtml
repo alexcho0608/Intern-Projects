@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@ViewBag.Message
+<h2>Search Articles</h2>
+
+@using (Ajax.BeginForm("Search", "Subscriber", new AjaxOptions() { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "articles" }))
+{
+    <div class="form-group">
+        <label class="col-md-2 control-label" for="Name">Search:</label>
+        <div class="col-md-10">
+            <input class="form-control" id="Search" name="Search" type="text" value="">
+        </div>
+    </div>
+
+    <input type="submit">
+}
+<div id="articles">
+
+</div>

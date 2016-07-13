@@ -1,0 +1,47 @@
+﻿@model BLL.Models.AccountCreateRequestModel
+@{
+    ViewBag.Title = "CreateAccount";
+}
+
+<h2>CreateAccount</h2>
+
+@using (Html.BeginForm("DoCreateAccount", "Access"))
+{
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.ClientId)
+                        @Html.TextBoxFor(m => m.ClientId)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.CurrencyId)
+                        @Html.PasswordFor(m => m.CurrencyId)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.IBAN)
+                        @Html.PasswordFor(m => m.IBAN)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.BankOfficeId)
+                        @Html.PasswordFor(m => m.BankOfficeId)
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Log in" class="btn btn-default" />
+                </div>
+            </div>
+}

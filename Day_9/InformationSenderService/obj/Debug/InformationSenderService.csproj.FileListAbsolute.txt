@@ -1,0 +1,34 @@
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\InformationSenderService.dll.config
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\InformationSenderService.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\InformationSenderService.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\BLL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\DAL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\EntityFramework.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\DapperExtensions.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\Dapper.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\BLL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\DAL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\EntityFramework.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\DapperExtensions.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\Dapper.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\bin\Debug\Dapper.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\obj\Debug\InformationSenderService.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\obj\Debug\InformationSenderService.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\InformationSenderService\obj\Debug\InformationSenderService.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\InformationSenderService.dll.config
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\InformationSenderService.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\InformationSenderService.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\BLL.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\DAL.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\DapperExtensions.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\Dapper.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\BLL.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\DAL.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\DapperExtensions.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\Dapper.pdb
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\bin\Debug\Dapper.xml
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\obj\Debug\InformationSenderService.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\obj\Debug\InformationSenderService.dll
+C:\Users\Alex\Desktop\Day_9\InformationSenderService\obj\Debug\InformationSenderService.pdb

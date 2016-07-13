@@ -1,0 +1,31 @@
+﻿@model IList<BAL.Models.ArticleSearchItem>
+
+<table>
+    <thead>
+        <tr>
+            <td>Title</td>
+            <td>Author</td>
+            <td>Price</td>
+            <td>Category</td>
+            <td></td>
+        </tr>
+    </thead>
+    @foreach (var article in Model)
+    {
+        <tr>
+            <td>@article.Name</td>
+            <td>@article.Author</td>
+            <td>@article.Price</td>
+            <td>@article.Category</td>
+            <td>@if (article.Status)
+            {
+                <a download href="~/Subscriber/Download/?articleName=@article.Name" >Download</a>
+            }
+            else
+            {
+                <a href="~/Subscriber/Order/?articleName=@article.Name">Order</a>
+            }
+            </td>
+        </tr>
+    }
+</table>

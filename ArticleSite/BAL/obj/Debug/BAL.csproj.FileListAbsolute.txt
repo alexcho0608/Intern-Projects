@@ -1,0 +1,18 @@
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\BAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\BAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\DAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\EntityFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\DAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\bin\Debug\EntityFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\obj\Debug\BAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\BAL\obj\Debug\BAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\BAL.dll
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\BAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\DAL.dll
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\DAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\BAL\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Desktop\ArticleSite\BAL\obj\Debug\BAL.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\ArticleSite\BAL\obj\Debug\BAL.dll
+C:\Users\Alex\Desktop\ArticleSite\BAL\obj\Debug\BAL.pdb

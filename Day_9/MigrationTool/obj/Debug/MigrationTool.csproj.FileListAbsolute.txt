@@ -1,0 +1,17 @@
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\MigrationTool.exe.config
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\MigrationTool.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\MigrationTool.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\DAL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\EntityFramework.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\DapperExtensions.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\Dapper.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\DAL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\EntityFramework.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\DapperExtensions.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\Dapper.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\bin\Debug\Dapper.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\obj\Debug\MigrationTool.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\obj\Debug\MigrationTool.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\MigrationTool\obj\Debug\MigrationTool.pdb

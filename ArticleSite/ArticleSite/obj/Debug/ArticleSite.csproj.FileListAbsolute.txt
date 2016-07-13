@@ -1,0 +1,172 @@
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\ApplicationInsights.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\csc.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\System.Collections.Immutable.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\vbc.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\VBCSCompiler.exe
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\roslyn\VBCSCompiler.exe.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\ArticleSite.dll.config
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\ArticleSite.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\ArticleSite.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Antlr3.Runtime.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\BAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\EntityFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\EntityFramework.SqlServer.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.Web.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.WindowsServer.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.ApplicationInsights.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Google.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Web.Infrastructure.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Newtonsoft.Json.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Owin.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Helpers.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Mvc.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Optimization.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Razor.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.Deployment.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.Razor.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\WebGrease.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\DAL.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\BAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.Web.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AI.WindowsServer.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.ApplicationInsights.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Helpers.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Mvc.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Optimization.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.Razor.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.Deployment.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\System.Web.WebPages.Razor.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Antlr3.Runtime.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Newtonsoft.Json.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\EntityFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\EntityFramework.SqlServer.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Google.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\bin\DAL.pdb
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\obj\Debug\ArticleSite.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\obj\Debug\ArticleSite.dll
+c:\users\a\documents\visual studio 2015\Projects\ArticleSite\ArticleSite\obj\Debug\ArticleSite.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\ApplicationInsights.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\csc.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\vbc.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\ArticleSite.dll.config
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\ArticleSite.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\ArticleSite.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Antlr3.Runtime.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\BAL.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\EntityFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.Web.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Newtonsoft.Json.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Owin.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Helpers.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Mvc.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Optimization.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Razor.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\WebGrease.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\DAL.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\BAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.Web.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Helpers.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Mvc.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Optimization.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.Razor.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Antlr3.Runtime.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Newtonsoft.Json.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\EntityFramework.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\bin\DAL.pdb
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\obj\Debug\ArticleSite.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\obj\Debug\ArticleSite.dll
+C:\Users\Alex\Desktop\ArticleSite\ArticleSite\obj\Debug\ArticleSite.pdb

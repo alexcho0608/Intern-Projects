@@ -1,0 +1,3 @@
+﻿Generated model file: BankingModel.edmx.
+Loading metadata from the database took 00:00:00.7562715.
+Generating the model took 00:00:01.9952629.

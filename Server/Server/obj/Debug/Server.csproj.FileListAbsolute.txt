@@ -1,0 +1,18 @@
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.exe.config
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.exe
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Server.pdb
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Fleck.dll
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Newtonsoft.Json.dll
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\bin\Debug\Newtonsoft.Json.xml
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.exe
+c:\users\a\documents\visual studio 2015\Projects\Server\Server\obj\Debug\Server.pdb
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Server.exe.config
+C:\Users\Alex\Desktop\Server\Server\obj\Debug\Server.exe
+C:\Users\Alex\Desktop\Server\Server\obj\Debug\Server.pdb
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Server.exe
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Server.pdb
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Fleck.dll
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Desktop\Server\Server\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Desktop\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

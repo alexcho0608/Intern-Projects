@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Account</h2>
+
+Deposit Form
+@using (Html.BeginForm("Deposit", "Account", FormMethod.Post))
+{
+    <div class="form-group">
+    <div class="col-md-offset-2 col-md-10">
+        <div class="checkbox">
+            @Html.Label("ClientId", "ClientFrom")
+            @Html.TextBox("ClientId")
+        </div>
+    </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("AccountId", "AccountTo")
+                @Html.TextBox("AccountId")
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("amount", "Amount")
+                <input type="number" name="amount" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Deposit" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+<br />
+Withdraw Form
+@using (Html.BeginForm("Withdraw", "Account", FormMethod.Post))
+{
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("ClientId", "Client")
+                @Html.TextBox("ClientId")
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("AccountId", "AccountFrom")
+                @Html.TextBox("AccountId")
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("amount", "Amount")
+                <input type="number" name="amount" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Withdraw" class="btn btn-default" />
+        </div>
+    </div>
+}
+
+Transfer Form
+@using (Html.BeginForm("TransferBetweenAccounts", "Account", FormMethod.Post))
+{
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("ClientId", "Client")
+                @Html.TextBox("ClientId")
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("FromAccountId", "From Account")
+                @Html.TextBox("FromAccountId")
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("ToAccountId", "To Account")
+                @Html.TextBox("ToAccountId")
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                @Html.Label("amount", "Amount")
+                <input type="number" name="amount" />
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Transfer" class="btn btn-default" />
+        </div>
+    </div>
+}

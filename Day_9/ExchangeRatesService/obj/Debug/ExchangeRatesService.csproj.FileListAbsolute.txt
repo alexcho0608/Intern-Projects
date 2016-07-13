@@ -1,0 +1,17 @@
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\ExchangeRatesService.exe.config
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\ExchangeRatesService.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\ExchangeRatesService.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\BLL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\DAL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\EntityFramework.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\DapperExtensions.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\Dapper.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\BLL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\DAL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\EntityFramework.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\DapperExtensions.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\Dapper.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\bin\Debug\Dapper.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\obj\Debug\ExchangeRatesService.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\obj\Debug\ExchangeRatesService.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\ExchangeRatesService\obj\Debug\ExchangeRatesService.pdb

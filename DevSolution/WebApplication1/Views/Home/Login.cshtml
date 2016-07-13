@@ -1,0 +1,67 @@
+﻿@model BLL.Models.LoginClientRequestModel
+    <h1> Login </h1>
+    <div class="row">
+    <!--
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                </div>
+            </div>
+
+            <button id="submit" class="btn waves-effect waves-light" style="float:right" type="submit" name="action">
+                Submit
+            </button>
+        </form>
+        -->
+
+         @*@Html.LoginClientFormBuilder("col s12", new { Method = "POST", Action = "/"})*@
+         @using(Ajax.BeginForm("DoLogin","Home",new AjaxOptions() {UpdateTargetId = "ajaxResult",InsertionMode = InsertionMode.InsertBefore}))
+         {
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.LoginName)
+                        @Html.TextBoxFor(m => m.LoginName,new {onfocusout = "checkUsername()" })
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.LabelFor(m => m.LoginPassword)
+                        @Html.PasswordFor(m => m.LoginPassword)
+                    </div>
+                </div>
+            </div>
+             <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Log in" class="btn btn-default" />
+                </div>
+            </div>
+         }
+    </div>
+    <div id="ajaxResult">
+
+    </div>
+<script>
+    function checkUsername() {
+        var username = { username: $("#LoginName").val() };
+        
+        $.ajax({
+            url: "/Home/CheckUser",
+            method: "GET",
+            data: username,
+            success: function (result) {
+                $("#ajaxResult").text(result);
+            }
+        });
+    }
+</script>

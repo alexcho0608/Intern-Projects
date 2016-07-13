@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BankDBv2ModelStoreContainer" CdmEntityContainer="BankDBv2Entities">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="BankDBv2Model.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Balance" ColumnName="Balance" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="CurrencyID" ColumnName="CurrencyID" />
+          <ScalarProperty Name="IBAN" ColumnName="IBAN" />
+          <ScalarProperty Name="BankOfficeID" ColumnName="BankOfficeID" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="CreateByOperatorID" ColumnName="CreateByOperatorID" />
+          <ScalarProperty Name="LastUpdateDateTime" ColumnName="LastUpdateDateTime" />
+          <ScalarProperty Name="AccountTypeID" ColumnName="AccountTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountMovements">
+      <EntityTypeMapping TypeName="BankDBv2Model.AccountMovement">
+        <MappingFragment StoreEntitySet="AccountMovement">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+          <ScalarProperty Name="OperationTypeID" ColumnName="OperationTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AccountTypes">
+      <EntityTypeMapping TypeName="BankDBv2Model.AccountType">
+        <MappingFragment StoreEntitySet="AccountTypes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="TaxPercent" ColumnName="TaxPercent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BankOffices">
+      <EntityTypeMapping TypeName="BankDBv2Model.BankOffice">
+        <MappingFragment StoreEntitySet="BankOffices">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="SWIFT" ColumnName="SWIFT" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Client2Operator">
+      <EntityTypeMapping TypeName="BankDBv2Model.Client2Operator">
+        <MappingFragment StoreEntitySet="Client2Operator">
+          <ScalarProperty Name="ClientID" ColumnName="ClientID" />
+          <ScalarProperty Name="OperatorID" ColumnName="OperatorID" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+          <ScalarProperty Name="NewStatus" ColumnName="NewStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="BankDBv2Model.Client">
+        <MappingFragment StoreEntitySet="Clients">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Names" ColumnName="Names" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="EGN" ColumnName="EGN" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="State" ColumnName="State" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Currencies">
+      <EntityTypeMapping TypeName="BankDBv2Model.Currency">
+        <MappingFragment StoreEntitySet="Currencies">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="ISOCode" ColumnName="ISOCode" />
+          <ScalarProperty Name="Label" ColumnName="Label" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CurrenciesExchangeRates">
+      <EntityTypeMapping TypeName="BankDBv2Model.CurrenciesExchangeRate">
+        <MappingFragment StoreEntitySet="CurrenciesExchangeRate">
+          <ScalarProperty Name="FromCurrencyID" ColumnName="FromCurrencyID" />
+          <ScalarProperty Name="ToCurrencyID" ColumnName="ToCurrencyID" />
+          <ScalarProperty Name="Rate" ColumnName="Rate" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperationTypes">
+      <EntityTypeMapping TypeName="BankDBv2Model.OperationType">
+        <MappingFragment StoreEntitySet="OperationTypes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operators">
+      <EntityTypeMapping TypeName="BankDBv2Model.Operator">
+        <MappingFragment StoreEntitySet="Operators">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Names" ColumnName="Names" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BankDBv2Model.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

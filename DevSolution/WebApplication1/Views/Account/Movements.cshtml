@@ -1,0 +1,55 @@
+﻿@model BLL.Models.AccountMovementsInfromationView
+@{
+    ViewBag.Title = "Movements";
+}
+
+<h2>Movements</h2>
+Filter by Iban:
+@using (Ajax.BeginForm("MovementsByIban", "Account", new AjaxOptions() { UpdateTargetId = "movements", InsertionMode = InsertionMode.Replace }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <div class="checkbox">
+                <select name="IBAN" id="IBAN">
+                    
+                    @foreach(var iban in Model.IBANS)
+                    {
+                        <option value="@iban">@iban</option>
+                    }
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Search" class="btn btn-default" />
+        </div>
+    </div>
+
+}
+<table id="movements">
+    <thead>
+        <tr>
+            <td>ClientId </td>
+            <td>AccountId</td>
+            <td>Amount</td>
+            <td>Date</td>
+            <td>OperationType</td>
+        </tr>
+    </thead>
+    @foreach (var movement in Model.Movements)
+    {
+        if (movement.movements == null)
+        {
+            continue;
+        }
+        <tr>
+            <td>@movement.clientId</td>
+            <td>@movement.accountId</td>
+            <td>@movement.movements.Amount</td>
+            <td>@movement.movements.EntryDate</td>
+            <td>@movement.movements.OperationType.Name</td>
+        </tr>
+        }
+</table>

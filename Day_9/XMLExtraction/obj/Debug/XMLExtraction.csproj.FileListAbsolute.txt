@@ -1,0 +1,17 @@
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\XMLExtraction.exe.config
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\XMLExtraction.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\XMLExtraction.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\DAL.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\EntityFramework.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\DapperExtensions.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\Dapper.dll
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\DAL.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\EntityFramework.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\DapperExtensions.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\Dapper.pdb
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\bin\Debug\Dapper.xml
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\obj\Debug\XMLExtraction.csprojResolveAssemblyReference.cache
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\obj\Debug\XMLExtraction.exe
+C:\Users\a\Documents\Visual Studio 2012\Projects\Day_9\XMLExtraction\obj\Debug\XMLExtraction.pdb
